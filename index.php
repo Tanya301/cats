@@ -11,6 +11,7 @@
     </td>
     <td align="center">
       <br><b>Welcome :)</b><br><br>
+      <button onclick="location.href = 'about.php';" id=aboutBtn class='btn'>About</button><br><br>
       <button onclick="location.href = 'mainPage.php';" id=mainPageBtn class='btn'>To the main page</button><br><br>
       <button onclick="location.href = 'auth.php';" id=authBtn class='btn'>Authtorize</button>
     </td>
