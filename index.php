@@ -8,7 +8,7 @@
   <table class='tabl'>
     <tr>
       <br><b>Welcome :)</b><br><br>
-      <button onclick="location.href = 'mainPage.js';" id=mainPageBtn class='btn'>To the main page</button>
+      <button onclick="location.href = 'mainPage.php';" id=mainPageBtn class='btn'>To the main page</button>
     </tr>
 </body>
 </html>
