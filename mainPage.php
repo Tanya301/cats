@@ -5,10 +5,10 @@
 </head>
 
 <body class="mainStl">
-  <button onclick="location.href = 'index.php';" id=mainPageBtn class='btn'>Back home</button><br><br>
+  <div class="headr"><br>Welcome to the world of cats<br> </div><br>
 
-  <!--<table class='tableMainPage'>-->
-  <table width=70% text-align=center background-color=#ff3bf8 border=1 align=center>
+  <table class='tableMainPage' align=center border="1">
+  <!--<table width=70% text-align=center background-color=#ff3bf8 border=1 align=center>-->
     <tr>
       <th>id</th>
       <th>Name</th>
@@ -37,5 +37,7 @@
       $conn->close();
     ?>
   </table>
+
+  <br><br><button onclick="location.href = 'index.php';" id=mainPageBtn class='btn'>Back home</button>
 </body>
 </html>

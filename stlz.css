@@ -3,6 +3,14 @@
   font-size: 20px;
 }
 
+.headr {
+  background-color: #ffa6fb;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
 .btn {
   background-color: #ff3bf8;
   border: none;
@@ -17,8 +25,8 @@
 .tableMainPage {
   width: 70%;
   text-align: center;
-  background-color: #ff3bf8;
-  border: 0.5;
+  border: 1px;
+  border-color: #ffc9fd;
 }
 
 .tabl {
