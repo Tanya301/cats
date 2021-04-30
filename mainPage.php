@@ -5,7 +5,7 @@
 </head>
 
 <body class="mainStl">
-  <div class="headr">Welcome to the world of cats</div><br>
+  <div class="headr">Caaaatssss</div><br>
 
   <table class='tableMainPage' align=center border="1">
   <!--<table width=70% text-align=center background-color=#ff3bf8 border=1 align=center>-->
