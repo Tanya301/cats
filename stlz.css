@@ -14,6 +14,13 @@
   font-size: 16px;
 }
 
+.tableMainPage {
+  width: 70%;
+  text-align: center;
+  background-color: #ff3bf8;
+  border: 0.5;
+}
+
 .tabl {
   width: 100%;
   text-align: center;
