@@ -7,7 +7,8 @@
 <body class="mainStl">
   <button onclick="location.href = 'index.php';" id=mainPageBtn class='btn'>Back home</button><br><br>
 
-  <table class='tableMainPage'> <!--width=70% text-align=center background-color=#ff3bf8 border=1 align=center>-->
+  <!--<table class='tableMainPage'>-->
+  <table width=70% text-align=center background-color=#ff3bf8 border=1 align=center>
     <tr>
       <th>id</th>
       <th>Name</th>
