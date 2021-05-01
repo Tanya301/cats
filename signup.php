@@ -5,7 +5,7 @@
 </head>
 
 <body class='mainStl'>
-  <div class="headr">Join our community</div><br>
+  <div class="headr">Join our community</div>
   <table class='tabl'>
     <td>
       <img class="mw-100" src="img/pawMir.png" width="400">
