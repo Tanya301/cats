@@ -38,6 +38,6 @@
     ?>
   </table>
 
-  <br><br><button onclick="location.href = 'index.php';" id=mainPageBtn class='btn'>Back home</button>
+  <br><br><button onclick="location.href = 'home.php';" id=homeBtn class='btn'>Back home</button>
 </body>
 </html>

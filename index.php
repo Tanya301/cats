@@ -1,22 +1,33 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <link rel='stylesheet' type='text/css' href='stlz.css'>
-  <title>HI</title>
+	<title>LOGIN</title>
+	<link rel="stylesheet" type="text/css" href="stlz.css">
 </head>
 
-<body class='mainStl'>
-  <div class="headr">Welcome :)</div><br>
-  <table class='tabl'>
-    <td align="center">
-      <img class="mw-100" src="img\csMir.png" width="300" height="400">
-    </td>
-    <td align="center">
-      <button onclick="location.href = 'about.php';" id=aboutBtn class='btn'>About</button><br><br>
-      <button onclick="location.href = 'mainPage.php';" id=mainPageBtn class='btn'>To the main page</button><br><br>
-      <button onclick="location.href = 'auth.php';" id=authBtn class='btn'>Authtorize</button>
-    </td>
-    <td align="center">
-      <img class="mw-100" src="img\cs.png" width="300" height="400">
-    </td>
+<body class=mainStl>
+   <table class=tabl>
+      <td>
+        <img class="mw-100" src="img\loginLeft.jpeg" width="300">
+      </td>
+      <td>
+        <form class=auth action="login.php" method="post">
+         	<?php if (isset($_GET['error'])) { ?>
+         		<p class="error"><?php echo $_GET['error']; ?></p>
+         	<?php } ?>
+          <div class="headr">Login</div><br>
+         	<label>Username</label>
+         	<input type="text" name="uname" placeholder="Имя пользователя"><br>
+
+         	<label>Пароль</label>
+         	<input type="password" name="password" placeholder="Пароль"><br>
+
+         	<button class=btn type="submit">Login</button><br><br>
+          <a href="signup.php" class="ca">Create new account</a>
+        </form>
+      </td>
+      <td>
+        <img class="mw-100" src="img\loginRight.jpeg" width="200">
+      </td>
 </body>
 </html>
