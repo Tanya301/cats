@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>SIGN UP</title>
+	<title>Registration</title>
 	<link rel="stylesheet" type="text/css" href="stlz.css">
 </head>
 <body class=mainStlAuth>
