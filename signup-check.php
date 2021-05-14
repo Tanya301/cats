@@ -4,7 +4,7 @@ include "db_conn.php";
 
 if (isset($_POST['uname']) && isset($_POST['password']) && isset($_POST['re_password'])) {
 
-	function validate($data){
+	function validate($data) {
        $data = trim($data);
 	   $data = stripslashes($data);
 	   $data = htmlspecialchars($data);
@@ -21,13 +21,13 @@ if (isset($_POST['uname']) && isset($_POST['password']) && isset($_POST['re_pass
 	if (empty($uname)) {
 		header("Location: signup.php?error=Username is required&$user_data");
 	    exit();
-	} else if(empty($pass)) {
+	} else if (empty($pass)) {
         header("Location: signup.php?error=Password is required&$user_data");
 	    exit();
-	} else if(empty($re_pass)) {
+	} else if (empty($re_pass)) {
         header("Location: signup.php?error=Repeat password is required&$user_data");
 	    exit();
-	} else if($pass !== $re_pass) {
+	} else if ($pass !== $re_pass) {
         header("Location: signup.php?error=The passwords don't match&$user_data");
 	    exit();
 	} else {
