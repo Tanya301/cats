@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="stlz.css">
 </head>
 
-<body class=mainStl>
+<body class=mainStlAuth>
    <table class=tabl>
       <td>
         <img class="mw-100" src="img\loginLeft.jpeg" width="300">
