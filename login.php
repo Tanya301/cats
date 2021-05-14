@@ -15,7 +15,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 	$pass = validate($_POST['password']);
 
 	if (empty($uname)) {
-		header("Location: index.php?error=User Name is required");
+		header("Location: index.php?error=Username is required");
 	    exit();
 	}else if(empty($pass)){
         header("Location: index.php?error=Password is required");
@@ -23,7 +23,6 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 	}else{
 		// hashing the password
         $pass = md5($pass);
-
         
 		$sql = "SELECT * FROM users WHERE user_name='$uname' AND password='$pass'";
 
@@ -36,17 +35,17 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
             	$_SESSION['id'] = $row['id'];
             	header("Location: home.php");
 		        exit();
-            }else{
-				header("Location: index.php?error=Incorect User name or password");
+            } else {
+				header("Location: index.php?error=Incorect username or password");
 		        exit();
 			}
-		}else{
-			header("Location: index.php?error=Incorect User name or password");
+		} else {
+			header("Location: index.php?error=Incorect username or password");
 	        exit();
 		}
 	}
 	
-}else{
+} else {
 	header("Location: index.php");
 	exit();
 }

@@ -18,26 +18,24 @@ if (isset($_POST['uname']) && isset($_POST['password']) && isset($_POST['re_pass
 
 	$user_data = 'uname='. $uname;
 
-
 	if (empty($uname)) {
-		header("Location: signup.php?error=User Name is required&$user_data");
+		header("Location: signup.php?error=Username is required&$user_data");
 	    exit();
 	}else if(empty($pass)){
         header("Location: signup.php?error=Password is required&$user_data");
 	    exit();
 	}
 	else if(empty($re_pass)){
-        header("Location: signup.php?error=Re Password is required&$user_data");
+        header("Location: signup.php?error=Repeat password is required&$user_data");
 	    exit();
 	}
 
 	else if($pass !== $re_pass){
-        header("Location: signup.php?error=The confirmation password  does not match&$user_data");
+        header("Location: signup.php?error=The passwords don't match&$user_data");
 	    exit();
 	}
 
-	else{
-
+	else {
 		// hashing the password
         $pass = md5($pass);
 
@@ -60,7 +58,7 @@ if (isset($_POST['uname']) && isset($_POST['password']) && isset($_POST['re_pass
 		}
 	}
 	
-}else{
+} else {
 	header("Location: signup.php");
 	exit();
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>LOGIN</title>
+	<title>Login</title>
 	<link rel="stylesheet" type="text/css" href="stlz.css">
 </head>
 
@@ -19,7 +19,7 @@
          	<label>Username</label>
          	<input type="text" name="uname" placeholder="Имя пользователя"><br>
 
-         	<label>Пароль</label>
+         	<label>Password</label>
          	<input type="password" name="password" placeholder="Пароль"><br>
 
          	<button class=btn type="submit">Login</button><br><br>
