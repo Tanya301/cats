@@ -26,7 +26,7 @@
                       name="uname" 
                       placeholder="Username"
                       value="<?php echo $_GET['uname']; ?>"><br>
-          <?php }else{ ?>
+          <?php } else { ?>
                <input type="text" 
                       name="uname" 
                       placeholder="Username"><br>
