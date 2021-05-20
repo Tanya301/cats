@@ -44,8 +44,8 @@
   opacity: .7;
 }
 
-.tableMainPage {
-  width: 70%;
+#tableMainPage {
+  width: 80%;
   text-align: center;
   border: 1px;
   border-color: #ffc9fd;

@@ -19,7 +19,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
     <td align="center">
       <button onclick="location.href = 'about.php';" id=aboutBtn class='btn'>About</button><br><br>
       <button onclick="location.href = 'mainPage.php';" id=mainPageBtn class='btn'>To the main page</button><br><br>
-      <button onclick="location.href = 'logout.php';" id=logoutBtn class='btn'>Logout</button>
+      <button onclick="location.href = 'logout.php';" id=logoutBtn class='btn'>Logout</button><br><br>
     </td>
     <td align="center">
       <img class="mw-100" src="img\cs.png" width="300" height="400">
@@ -28,7 +28,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 </html>
 
 <?php 
-}else{
+} else {
      header("Location: index.php");
      exit();
 }

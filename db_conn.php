@@ -1,12 +1,12 @@
 <?php
 
 $sname= "localhost";
-$unmae= "root";
+$username= "root";
 $password = "root";
 
-$db_name = "cats";
+$DBname = "cats";
 
-$conn = mysqli_connect($sname, $unmae, $password, $db_name);
+$conn = mysqli_connect($sname, $username, $password, $DBname);
 
 if (!$conn) {
 	echo "Connection failed!";
