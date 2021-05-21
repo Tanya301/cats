@@ -8,7 +8,7 @@
   <div class="headr">Caaaatssss</div><br>
   <table id='tableMainPage' align=center border="1">
   <!--<table width=70% text-align=center background-color=#ff3bf8 border=1 align=center>-->
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Start typing a name.." title="Search for names">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Start typing a name.." title="Search for names"><br>
     <tr class='header'>
       <th>Name</th>
       <th>Breed</th>
@@ -61,7 +61,7 @@
   }
   </script>
 
-  <br><br><button onclick="location.href = 'home.php';" id=homeBtn class='btn'>Back home</button>
   <br><br><button onclick="location.href = 'breeds.php';" id=breedPageBtn class='btn'>Explore breeds</button>
+  <br><br><button onclick="location.href = 'home.php';" id=homeBtn class='btn'>Back home</button>
 </body>
 </html>

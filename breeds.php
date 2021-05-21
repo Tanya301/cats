@@ -5,10 +5,10 @@
 </head>
 
 <body class="mainStl">
-  <div class="headr">Cat Breeds</div><br>
+  <div class="headr">Breeds</div><br>
   <table id='tableMainPage' align=center border="1">
   <!--<table width=70% text-align=center background-color=#ff3bf8 border=1 align=center>-->
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Start typing a breed.." title="Search for breeds">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Start typing a breed.." title="Search for breeds"><br>
     <tr class='header'>
       <th>Breed</th>
       <th>Description</th>
