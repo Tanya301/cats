@@ -13,7 +13,7 @@
     <td>
       <p>Данный проект просто необходим человечеству, ведь он позволяет решить главную проблему в современном мире -- недостаток котиков. Недостаток котиков действительно является важной проблемой, ведь мы подвержены такому большому количеству стлесса, и кто как не котики способен это исправить</p><br>
       <button onclick="location.href = 'home.php';" id=mainPageBtn class='btn'>Back home</button><br><br>
-      <button onclick="location.href = 'helloKitty.php';" id=specialBtn class='btn'>Special button</button><br><br>
+      <!--<button onclick="location.href = 'helloKitty.php';" id=specialBtn class='btn'>Special button</button><br><br>-->
     </td>
     <td width="150">
     </td>
